@@ -7,7 +7,7 @@
 #### Schedule for today
 
 - [Code Review](#codereview) *[30-45 minutes]*
-- HTML Lists *[10-15 minutes]
+- HTML Lists *[10-15 minutes]*
 
 **10 minute break**
 
