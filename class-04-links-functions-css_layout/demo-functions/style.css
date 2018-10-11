@@ -1,0 +1,17 @@
+body {
+  color: white;
+  background: black;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-left: 5px;
+}
+
+li {
+  margin: 10px;
+}
+
+#what {
+  color: yellow;
+}
