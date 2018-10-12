@@ -15,10 +15,10 @@ function woo() { // This is the function declaration
   console.log('Wooooooo!!!!');
 }
 
-// woo(); // This is a function call (or, invoke the function)
-// woo();
-// woo();
-// woo();
+woo(); // This is a function call (or, invoke the function)
+woo();
+woo();
+woo();
 
 // We'll start with this commented out, then check it in the console, first by entering only the function name 'woo' in the console, then by entering the function call 'woo()' in the console.
 
