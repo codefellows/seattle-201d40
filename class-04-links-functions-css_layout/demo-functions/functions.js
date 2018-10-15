@@ -15,10 +15,10 @@ function woo() { // This is the function declaration
   console.log('Wooooooo!!!!');
 }
 
-woo(); // This is a function call (or, invoke the function)
-woo();
-woo();
-woo();
+// woo(); // This is a function call (or, invoke the function)
+// woo();
+// woo();
+// woo();
 
 // We'll start with this commented out, then check it in the console, first by entering only the function name 'woo' in the console, then by entering the function call 'woo()' in the console.
 
@@ -38,7 +38,7 @@ function clue(who, where, weapon) {
 }
 
 // Called with three arguments
-// clue('Phil', 'Ada Lovelace Classroom', 'CSS');
+// clue('Zahra', 'Ada Lovelace Classroom', 'CSS');
 
 // We can also call this in the console with different arguments.
 
@@ -46,11 +46,11 @@ function clue(who, where, weapon) {
 
 // Note that we can also pass in the values of externally declared variables when the function is called:
 
-// var murderer = 'Col Mustard';
-// var crimeScene = 'library';
-// var toolOfDeath = 'candlestick';
+var murderer = 'Col Mustard';
+var crimeScene = 'library';
+var toolOfDeath = 'candlestick';
 
-// clue(murderer, crimeScene, toolOfDeath);
+clue(murderer, crimeScene, toolOfDeath);
 
 // ++++++++++++++++++++++++++++++++++++++++
 
@@ -69,10 +69,10 @@ function mathsAreHard(numOne, numTwo, numThree) {
 
   // console.log('The sum of these numbers is ' + sum);
   return [sum, sum1, sum2, sum3];
-  console.log('If this shows I will give Phil $1000');
+  console.log('If this shows I will give Noah $1000');
 }
 
-// console.log(mathsAreHard(2, 5, 9)[2], 'mathsAreHard(2, 5, 9)[2]');
+console.log(mathsAreHard(2, 5, 9), 'mathsAreHard(2, 5, 9)');
 
 // Let's also inspect what each of the following gives us in the console: mathsAreHard, mathsAreHard(), and mathsAreHard(3, -5, Math.PI).
 

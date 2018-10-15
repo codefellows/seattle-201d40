@@ -1,0 +1,26 @@
+/* #duck {
+  width: 400px;
+}
+
+#darcy {
+  width: 400px;
+} */
+
+img {
+  /* width: 30%; */
+  /* border: 1px solid black; */
+}
+
+body {
+  background-color: black;
+}
+
+#duck {
+  /* width: 1500px; */
+  height: 500px;
+}
+
+#darcy {
+  /* width: 500px;
+  height: 100px; */
+}
