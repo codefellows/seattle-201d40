@@ -10,64 +10,71 @@ var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 
 var alki = {
   name: 'Alki Beach',
   neighborhood: 'West Seattle',
-  seagullCount: [35, 75, 59, 12, 36, 477, 15],
+  seagullCount: [34, 77, 23, 347, 55, 72, 88]
 };
 
+
 alki.render = function() {
-  // Access the <ul> in the DOM where we will put data
-  var alkiBeachUlEl = document.getElementById('alkibeach');
-  // console.log(alkiBeachUlEl);
-  // For each value in the array...
+  // access the element where we will attach lis
+  var alkiUl = document.getElementById('alkibeach');
+  // for each element in the seagullCount array, we need to
   for (var i = 0; i < this.seagullCount.length; i++) {
-    // console.log(this.seagullCount[i]);
-    // Create the <li> element
+    // console.log(this.seagullCount[i], 'Alki gulls');
+    // 1. create a <li> element
     var liEl = document.createElement('li');
-    // Give the <li> element content
-    liEl.textContent = days[i] + ': ' + this.seagullCount[i];
-    // Append the <li> element to the <ul>
-    alkiBeachUlEl.appendChild(liEl);
+    // 2. give that <li> element content
+    liEl.textContent = `${days[i]}: ${this.seagullCount[i]}`;
+    // console.log(liEl, 'liEl')
+    // 3. append the <li> to the <ul>
+    alkiUl.appendChild(liEl);
   }
 }
 
 var goldenGardens = {
-  name: 'Golden Gardens',
+  name: 'Golden Gardens Beach',
   neighborhood: 'Ballard',
-  seagullCount: [45, 74, 22, 58, 12, 9, 8]
+  seagullCount: [12, 42, 33, 18, 2, 34, 17]
 };
 
-goldenGardens.render = function() {
-  // Access the <ul> in the DOM where we will put data
-  var goldenUlEl = document.getElementById('gg');
-  // console.log(goldenUlEl);
-  // For each value in the array...
+goldenGardens.render = function () {
+  // access the element where we will attach lis
+  var goldenGardensUl = document.getElementById('gg');
+  // for each element in the seagullCount array, we need to
   for (var i = 0; i < this.seagullCount.length; i++) {
-    // console.log(this.seagullCount[i]);
-    // Create the <li> element
+    // console.log(this.seagullCount[i], 'goldenGardens gulls');
+    // 1. create a <li> element
     var liEl = document.createElement('li');
-    // Give the <li> element content
-    liEl.textContent = days[i] + ': ' + this.seagullCount[i];
-    // Append the <li> element to the <ul>
-    goldenUlEl.appendChild(liEl);
+    // 2. give that <li> element content
+    liEl.textContent = `${days[i]}: ${this.seagullCount[i]}`;
+    // console.log(liEl, 'liEl')
+    // 3. append the <li> to the <ul>
+    goldenGardensUl.appendChild(liEl);
   }
 }
 
-var edmondsBeach = {
-  name: 'Edmonds Beach',
-  neighborhood: 'Edmonds',
-  seagullCount: [76, 45, 23, 15, 98, 2, 44]
+var edmonds = {
+  name: 'Edmonds Beach', 
+  neighborhood: 'Edmonds', 
+  seagullCount: [65, 48, 89, 1, 56, 62, 89]
 };
 
-edmondsBeach.render = function() {
-  var edmondsUlEl = document.getElementById('edmonds');
+
+
+edmonds.render = function () {
+  // access the element where we will attach lis
+  var edmondsUl = document.getElementById('edmonds');  // for each element in the seagullCount array, we need to
   for (var i = 0; i < this.seagullCount.length; i++) {
+    // console.log(this.seagullCount[i], 'edmonds gulls');
+    // 1. create a <li> element
     var liEl = document.createElement('li');
-    liEl.textContent = days[i] + ': ' + this.seagullCount[i];
-    edmondsUlEl.appendChild(liEl);
+    // 2. give that <li> element content
+    liEl.textContent = `${days[i]}: ${this.seagullCount[i]}`;
+    // console.log(liEl, 'liEl')
+    // 3. append the <li> to the <ul>
+    edmondsUl.appendChild(liEl);
   }
 }
 
-var allBeaches = [alki, goldenGardens, edmondsBeach];
-
-for (var i = 0; i < allBeaches.length; i++) {
-  allBeaches[i].render();
-}
+alki.render();
+goldenGardens.render();
+edmonds.render();
