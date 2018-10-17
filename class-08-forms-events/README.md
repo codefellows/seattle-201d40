@@ -1,49 +1,55 @@
-# Class 8: HTML Forms & JS Events
+# Class 8: HTML Forms and JS Events
 
-**Learning Objectives**
+<a id="top"></a>
+## Today's Plan: Week 2, Wednesday Lecture
 
-As a result of completing Lecture 8 of Code 201, students will:
-- Be able to add an input form to an HTML document with properly structured HTML including the necessary `<form>`, `<input>`, and `<label>` tags, as well as the useful but not necessary `<fieldset>` tag, as measured by successful completion of the daily code assignment and a quiz administered in Canvas.
-Demonstrate how to use JavaScript events with the .addEventListener() method on a DOM element (specifically, an HTML form), using either a named or anonymous event handler function, as measured by successful completion of the daily code assignment
-Be able to add a new row to their data table(s) by storing, computing, and rendering data from the HTML form, as measured by successful completion of the daily code assignment
-Be able to successfully pair program with a fellow student and manage the collaborative and version control aspects of working with Git (from the command line) and GitHub (in the browser), as measured by successful completion of the daily code assignment.
+- Announcements
+- [Code Review](#codereview)
 
+*10-minute break*
 
-# Readings
+- [JavaScript Events](#events)
+
+*10-minute break*
+
+- [HTML Forms](#forms)
+
+- [Discuss the lab assignment](#lab)
+
+---
+
+#### Announcements
+- Today is the midpoint of class days! **ER.MAH.GERD.**
+
+![ermahgerd.jpg](ermahgerd.jpg)
+
+- Sam will start doing the 15-minute 1:1 (well, 2:1) meetings with students this afternoon. Visit [this link](https://sam-201d40.youcanbook.me/) to sign up for a time. Please be sure to write down your time, since the site does not support you being able to go back and look. Here are the meetings scheduled for today:
+
+	- 3:00: Heather
+	- 3:15: Adam
+	- 3:30: Becca
+	- 3:45: Jacob
+	- 4:30: Jeff
+
+- Sam will also be in meetings today 1:00-3:00, plus, we will be without Tara this afternoon. We will have another TA in her place, Ashton... but he is also going to be helping the JS 401 class. Be thoughtful of your classmates when utilizing the time of Noah and Zahra this afternoon; and, don't forget to turn to one another for assistance!
+
+## Readings
 
 - HTML Chapter 7: "Forms"
 - HTML Chapter 14: "Lists, Tables & Forms" (CSS)
 - JS Chapter 6: "Events"
 
----
+**Learning Objectives**
 
-<a id="codereview"></a>
-### Code Review
+As a result of completing Day 8 of Code 201, students will:
 
-We'll do code reviews to begin class most days
+- Be able to add an input form to an HTML document with properly structured HTML including the necessary \<form>, \<input>, and \<label> tags, as well as the useful but not necessary \<fieldset> tag, as measured by successful completion of the daily code assignment and a quiz administered in Canvas.
+- Demonstrate how to use JavaScript events with the `.addEventListener()` method on a DOM element (specifically, an HTML form), using either a named or anonymous event handler function, as measured by successful completion of the daily code assignment
+- Be able to add a new row to their data table(s) by storing, computing, and rendering data from the HTML form, as measured by successful completion of the daily code assignment
+- Be able to successfully pair program with a fellow student and manage the collaborative and version control aspects of working with Git (from the command line) and GitHub (in the browser), as measured by successful completion of the daily code assignment.
 
-[-top-](#top)
-
----
-
-<a id="readings"></a>
-### Go over the assigned readings
-
-**HTML Chapter 7: "Forms"**
-
-- p.148: Form controls
-- pp.149-50: How forms work
-- pp.151-62 : Form structure, overview of all input types
-- p.163: Labelling form controls
-- p.164: \<fieldset\> and grouping form elements
-- pp.165-68 : HTML5 form features (validation, dates, email, URL search)
-
-**HTML Chapter 14: "Lists, Table & Forms" (CSS)**
-
-- p.333-36: Bullet point styles/positioning for lists
-- p.337-40: Table properties (VERY useful reference)
-- p.341-44: Styling [forms, inputs, buttons, fieldsets, legends]
-- p.345: Aligning form controls
+<a id="events"></a>
+## Events
 
 **JS Chapter 6: "Events"**
 
@@ -63,11 +69,23 @@ We'll do code reviews to begin class most days
 
 [-top-](#top)
 
----
+<a id="forms"></a>
+## Forms
 
-<a id="code"></a>
-### Live code
+**HTML Chapter 7: "Forms"**
 
-This code demo is to help students be ready to complete the first assignment, and also to show off some functionality of the REPL and Chrome Developer Tools.
+- p.148: Form controls
+- pp.149-50: How forms work
+- pp.151-62 : Form structure, overview of all input types
+- p.163: Labelling form controls
+- p.164: \<fieldset\> and grouping form elements
+- pp.165-68 : HTML5 form features (validation, dates, email, URL search)
+
+**HTML Chapter 14: "Lists, Table & Forms" (CSS)**
+
+- p.333-36: Bullet point styles/positioning for lists
+- p.337-40: Table properties (VERY useful reference)
+- p.341-44: Styling [forms, inputs, buttons, fieldsets, legends]
+- p.345: Aligning form controls
 
 [-top-](#top)
