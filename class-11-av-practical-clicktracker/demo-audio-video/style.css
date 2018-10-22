@@ -1,0 +1,10 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: gray
+}
+
+video {
+  /* width: 30%; */
+  /* height: 10%; */
+  height: 100px;
+}
