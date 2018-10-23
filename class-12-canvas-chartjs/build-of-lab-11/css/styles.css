@@ -18,3 +18,7 @@ li {
   margin: 5px;
   width: 75%;
 }
+
+section {
+  border: 2px solid red;
+}

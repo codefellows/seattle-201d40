@@ -12,16 +12,16 @@ function Goat(name, filepath) {
 }
 
 // make new Goat instances
-new Goat('Cruisin goat', 'img/cruisin-goat.jpg');
-new Goat('Kissing goats', 'img/kissing-goat.jpg');
-new Goat('Sassy goat', 'img/sassy-goat.jpg');
-new Goat('Smiling goat', 'img/smiling-goat.jpg');
-new Goat('Sweater goat', 'img/sweater-goat.jpg');
-new Goat('Flower goat', 'img/flower-goat.jpg');
-new Goat('Jumping goat', 'img/jumping-goat.jpg');
-new Goat('Toothy goat', 'img/toothy-goat.jpg');
-new Goat('Tongue goat', 'img/tongue-goat.jpg');
-new Goat('Pushy goat', 'img/pushy-goat.jpg');
+new Goat('cruisin', 'img/cruisin.jpg');
+new Goat('Kissing goats', 'img/kissing.jpg');
+new Goat('Sassy goat', 'img/sassy.jpg');
+new Goat('Smiling goat', 'img/smiling.jpg');
+new Goat('Sweater goat', 'img/sweater.jpg');
+new Goat('Flower goat', 'img/flower.jpg');
+new Goat('Jumping goat', 'img/jumping.jpg');
+new Goat('Toothy goat', 'img/toothy.jpg');
+new Goat('Tongue goat', 'img/tongue.jpg');
+new Goat('Pushy goat', 'img/pushy.jpg');
 
 // Get the <img> element from the DOM
 var goatImg = document.getElementById('goat-pic');
