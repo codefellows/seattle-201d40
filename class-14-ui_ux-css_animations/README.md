@@ -11,14 +11,14 @@
 
 *10 minute break*
 
-- Discuss/review project ideas
+- CSS Animations
 
 - UI/UX Discussion
 
 
 *10 minute break*
 
-- CSS Animationso
+- Discuss/review project ideas
 
 - Go over the lab assignment for today
 
