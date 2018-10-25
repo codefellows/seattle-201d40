@@ -3,7 +3,7 @@
 // DATA - Variable declarations
 // ++++++++++++++++++++++++++++++++++++++++++++
 
-var allSongs = [];
+Song.allSongs = [];
 var songChart;
 var chartDrawn = false;
 
@@ -15,7 +15,7 @@ function Song(title, identifier) {
   this.title = title;
   this.votes = 0;
   this.identifier = identifier;
-  allSongs.push(this);
+  Song.allSongs.push(this);
 }
 
 new Song('Purple Rain', 'purplerain');
@@ -33,9 +33,9 @@ var titles = [];
 // ++++++++++++++++++++++++++++++++++++++++++++
 
 function updateChartArrays() {
-  for (var i = 0; i < allSongs.length; i++) {
-    titles[i] = allSongs[i].title;
-    votes[i] = allSongs[i].votes;
+  for (var i = 0; i < Song.allSongs.length; i++) {
+    titles[i] = Song.allSongs[i].title;
+    votes[i] = Song.allSongs[i].votes;
   }
 }
 
@@ -44,17 +44,17 @@ function showSongsAsList() {
   songList.innerHTML = '';
   songList.hidden = false;
   songList.textContent = 'CLICK ON THIS LIST TO HIDE IT';
-  for (var i = 0; i < allSongs.length; i++) {
+  for (var i = 0; i < Song.allSongs.length; i++) {
     var liEl = document.createElement('li');
-    liEl.textContent = allSongs[i].title + ', ' + allSongs[i].votes + ' votes';
+    liEl.textContent = Song.allSongs[i].title + ', ' + Song.allSongs[i].votes + ' votes';
     songList.appendChild(liEl);
   };
 };
 
 function tallyVote(thisSong) {
-  for (var i = 0; i < allSongs.length; i++) {
-    if (thisSong === allSongs[i].identifier) {
-      allSongs[i].votes++;
+  for (var i = 0; i < Song.allSongs.length; i++) {
+    if (thisSong === Song.allSongs[i].identifier) {
+      Song.allSongs[i].votes++;
       updateChartArrays();
     }
   }
