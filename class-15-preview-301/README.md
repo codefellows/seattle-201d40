@@ -20,7 +20,7 @@
 
 - [Excelling as a NonTraditional Candidate, by Ed Anderson from Real Self](https://www.eventbrite.com/e/partner-power-hour-excelling-as-a-nontraditional-candidate-tickets-51676431598)
 
-**1:30-2:15: Project Week Kickoff** 
+**1:30-2:15: Project Week Kickofffff** 
 
 - Go over schedule for next few days
 - Review project requirements
