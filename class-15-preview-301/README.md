@@ -31,7 +31,7 @@
 
   - Reminder: weekly surveys will go out to students today. As always, thank you for your feedback!
   - Starting at 9:00a on Monday morning is a blackout window on submitting classwork (including late assignments and any resubmissions) during Project Week. In other words, you should be **100%** focused on your project during Project Week. But for the rest of the week, do not spend energy on catching up on past assignments.
-  - You'll have the weekend after project presentations to turn in any lingering late work or resubmissions. The deadline for that will be Sunday 10/28 at 11:59pm.
+  - You'll have the weekend after project presentations to turn in any lingering late work or resubmissions. The deadline for that will be Sunday 11/4 at 11:59pm.
   - The instructional staff will go into the gradebook and "zero out" all unsubmitted assignments today. This is not punitive or permanent (you can still submit/resubmit!), just an administrative step to show you ongoing exactly where your grade stands if you do not submit any additional assignments or do any resubmits of previous assignments.
   - Note that during project week as you submit (or if you don't!) your daily project reports, your course grade will move up or down accordingly.
 
