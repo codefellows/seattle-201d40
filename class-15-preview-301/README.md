@@ -1,13 +1,124 @@
-# Class 15: Course Review; Code 301 Preview; Transition to Project Week
+# Class 15: Looking to the Future: Code 301 Preview and Project Week
 
-## Learning Objectives
+<a id="top"></a>
+## Today's Plan: Week 3, Friday Lecture... LAST CLASS DAY!
 
-As a result of completing Lecture 15 of Code 201, students will:
+***The Code 301 entrance exam will be published later today. It will be due at 11:59pm on Sunday night. Allow yourself about an hour to complete it. Take your time, be methodical, and kick its butt.***
+
+## Schedule for Today
+
+- **9:00-10:30ish**
+
+- Psychological Safety discussion with Brook Riggio, VP of Education
+- Team meeting for additional discussion
+
+**Lecture, Part 2: (ending by 11:45)** 
+
+- Review of yesterday's lab
+
+**12:15: Pardner Power Hour**
+
+- [Excelling as a NonTraditional Candidate, by Ed Anderson from Real Self](https://www.eventbrite.com/e/partner-power-hour-excelling-as-a-nontraditional-candidate-tickets-51676431598)
+
+**1:30-2:15: Project Week Kickoff** 
+
+- Go over schedule for next few days
+- Review project requirements
+- Overview of lab for today
+ 
+
+**Announcements**
+
+  - Reminder: weekly surveys will go out to students today. As always, thank you for your feedback!
+  - Starting at 9:00a on Monday morning is a blackout window on submitting classwork (including late assignments and any resubmissions) during Project Week. In other words, you should be **100%** focused on your project during Project Week. But for the rest of the week, do not spend energy on catching up on past assignments.
+  - You'll have the weekend after project presentations to turn in any lingering late work or resubmissions. The deadline for that will be Sunday 10/28 at 11:59pm.
+  - The instructional staff will go into the gradebook and "zero out" all unsubmitted assignments today. This is not punitive or permanent (you can still submit/resubmit!), just an administrative step to show you ongoing exactly where your grade stands if you do not submit any additional assignments or do any resubmits of previous assignments.
+  - Note that during project week as you submit (or if you don't!) your daily project reports, your course grade will move up or down accordingly.
+
+---
+
+**Learning Objectives**
+
+As a result of completing Day 15 of Code 201, students will:
+
 - Have an understanding of the fundamentals of Code 301 topics, as measured by observations from the instructional staff during class discussion.
 - Have an understanding of how to successfully integrate Git and GitHub into a team code project, as measured by successful completion of the final project.
-- Be able to locate and utilize resources for self-study in jQuery before beginning Code 301, for those students that are going ahead, given recommendations from their Code 201 instructor.
-- Be grouped into project teams with a description of the project the team is going to build during Project Week given instruction from the instructor.
 
-# Readings
+## Readings
 
-- [What Google Learned From Its Quest to Build the Perfect Team](https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html) (if not read already)
+- No readings for today! But keep in mind it is time to start getting into the habit of doing regular daily reading of tech articles, Twitter feeds, and other resources. A great time to do this: on your commute if you bus or train or whatever. And if you drive, there's podcasts! Always Be Learning!
+
+[-top-](#top)
+
+<a id="301"></a>
+## 301 Preview
+
+Preview of the topics in Code 301, and some over-arching 'how the web works' discussion.
+
+##### Concepts in 301
+- MVC
+- Responsive & Mobile-First Design
+- Single-Page Application Development (SPA)
+- Services and APIs
+- Algorithms
+- Functional Programming
+- Relational Data
+- AJAX
+
+##### Languages in 301
+- HTML with Templating
+- Modularized CSS
+- Intermediate JavaScript including Functional Programming
+- jQuery Events & DOM Manipulation
+
+##### Other Alphabet Soup
+- CRUD
+- HTTP
+- REST
+- SMACSS
+- SQL
+
+
+## jQuery Preview
+
+Short overview of the basics of jQuery and direct students to online resources:
+
+- [jQuery documentation](https://jquery.com)
+- [Fantastic jQuery cheat sheet](https://oscarotero.com/jquery)
+- [Codecademy jQuery course](https://www.codecademy.com/learn/jquery)
+- [CDN of libraries hosted by Google](https://developers.google.com/speed/libraries)
+
+[-top-](#top)
+
+<a id="project"></a>
+## Final Project Overview, etc.
+
+### Roadmap
+
+- Weekend: Plan, plan, plan...
+- Monday morning: Finalize your Project Plan and share it with the instructional staff. We'll give you tips and pointers.
+- Monday afternoon: Start building!
+- Tuesday: Focus on core functionality
+- Wednesday: Strive for MVP
+- Thursday: Stretch goals, code cleanup, rehearse presentations
+- Friday: Presentations
+
+[-top-](#top)
+
+## Project Teams
+
+HARM
+
+ `Heather, Adam, Ryan and Michael G`
+
+JAM'D
+
+`Jeff, Michael J, Dev and Angel`
+
+B-TEAM
+
+`Jacob, Fletcher, Becca and Brent`
+
+JAH'S TEAM
+
+`Andrew, Harris, Jared and Siobhan`
